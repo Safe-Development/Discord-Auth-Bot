@@ -1,6 +1,8 @@
 # 🚀 Safe Development - Discord Auth Bot
 
+**Author: godmodule**
 **Version:** 0.8.2
+**Safe Development**
 
 ## Overview
 
@@ -75,11 +77,18 @@ The bot also includes an Express API for user authentication:
 Example request:
 ```json
 {
-    "username": "testuser",
-    "password": "password123",
-    "hwid": "unique-hwid"
+    "username": "godmodule-example",
+    "password": "safe123-example",
+    "hwid": "hwid"
 }
 ```
+
+## 📸 Screenshots
+
+Here are some screenshots to give you a visual overview of how the bot operates:
+
+![Screenshot 1](https://cdn.discordapp.com/attachments/1338893924143468598/1340094681668780176/image.png?ex=67b11bed&is=67afca6d&hm=50297a00fe0e567884a445c35c91f770824fe128358ddff31f85f29e223b3c0c&)
+![Screenshot 2](https://cdn.discordapp.com/attachments/1338893924143468598/1340094682041946266/image.png?ex=67b11bed&is=67afca6d&hm=766bed38693de8f5dff5baaeb256947a9e6dfb5f69aa94becead5a1e0671cfd6&)
 
 ## 👥 Contribution
 
@@ -109,10 +118,6 @@ To contribute to the project, follow these steps:
     - `Send Messages`
     - `Read Message History`
 
-## 🛡️ License
-
-This project is licensed under the MIT License.
-
 ## 📌 Important Notes
 
 - **Database Security:** The current implementation does not encrypt the database. It is recommended to use SQLite encryption extensions or migrate to a more secure database system for storing sensitive information.
@@ -132,4 +137,4 @@ This project is licensed under the MIT License.
 ---
 ```
 Safe Development © 2025
-````
+```` 
