@@ -1,0 +1,18 @@
+{
+    "name": "discord-bot",
+    "version": "0.8.2",
+    "description": "Safe Client Discord Auth Bot",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "discord-bot": "file:",
+        "discord.js": "^14.0.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.2",
+        "md5": "^2.3.0",
+        "sqlite3": "^5.1.2"
+    }
+}
